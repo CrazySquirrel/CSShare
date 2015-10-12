@@ -1,26 +1,3 @@
-# CSTiles
-jQuery plugin for making tiles.
-This plugin allows you to create share buttons.
-You can look at other plugins and utilities for web development on the website [CrazySquirrel.ru](http://crazysquirrel.ru/).
-## Parameters
-### Parameters description
-* types - An array with the names of views share.
-		  May include the following values.
-		  ["facebook","twitter","vkontakte","odnoklassniki","google","yahoo","misterwong","moimir","friendfeed","yandex","webmoney","vkrugu","juick","pinterest","myspace","googlebookmark","stumbleupon","instapaper","email","springpad","print","linkedin","readability","pinme","surfingbird","webdiscover","memori","livejournal","blogger","liveinternet","evernote","bobrdobr","moemesto","formspring","yazakladki","moikrug","bookmark","digg","tumblr","delicious"]
-
-### Setting
-The options for tiles and a particular tile can be specified when invoking the plugin or via data - attributes.
-When you call peredaetsa structured object as the default parameters.
-If you specify options via data, you can use the following values.
-* data-csshare-types - Sets types where value separet by ,
-
-### Default parameters
-```javascript
-types: ["twitter","facebook","vkontakte","print"]
-```
-## Example
-### HTML
-```html
 <!doctype html>
 <html>
 <head>
@@ -68,18 +45,3 @@ types: ["twitter","facebook","vkontakte","print"]
 <script src="js/index.js"></script>
 </body>
 </html>
-```
-### JavaScript
-```javascript
-$(function(){
-    $(".cstiles").CSTiles({
-		shareTile: true,
-		shareTypes: ["facebook","vkontakte","email","print"]		
-	});
-	/*
-	$(".cstiles__item-content").CSShare({
-		types: ["facebook","vkontakte","email","print"]	
-	});
-	*/
-});
-```
