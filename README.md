@@ -1,5 +1,5 @@
-# CSTiles
-jQuery plugin for making tiles.
+# CSShare
+jQuery plugin for making share buttons.
 This plugin allows you to create share buttons.
 You can look at other plugins and utilities for web development on the website [CrazySquirrel.ru](http://crazysquirrel.ru/).
 ## Parameters
@@ -9,7 +9,7 @@ You can look at other plugins and utilities for web development on the website [
 		  ["facebook","twitter","vkontakte","odnoklassniki","google","yahoo","misterwong","moimir","friendfeed","yandex","webmoney","vkrugu","juick","pinterest","myspace","googlebookmark","stumbleupon","instapaper","email","springpad","print","linkedin","readability","pinme","surfingbird","webdiscover","memori","livejournal","blogger","liveinternet","evernote","bobrdobr","moemesto","formspring","yazakladki","moikrug","bookmark","digg","tumblr","delicious"]
 
 ### Setting
-The options for tiles and a particular tile can be specified when invoking the plugin or via data - attributes.
+The options for share buttons can be specified when invoking the plugin or via data - attributes.
 When you call peredaetsa structured object as the default parameters.
 If you specify options via data, you can use the following values.
 * data-csshare-types - Sets types where value separet by ,
