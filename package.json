@@ -1,0 +1,17 @@
+{
+  "name": "CSShare",
+  "version": "1.0.0",
+  "description": "jQuery plugin for making share buttons.",
+  "keywords": [
+    "TypeScript",
+    "requestAnimationFrame",
+    "watchers",
+    "animations"
+  ],
+  "author": "Sergey Yastrebov <info@crazysquirrel.ru>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:CrazySquirrel/CSShare.git"
+  }
+}

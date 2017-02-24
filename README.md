@@ -1,25 +1,39 @@
 # CSShare
+
+[![Code Climate](https://codeclimate.com/github/CrazySquirrel/CSShare/badges/gpa.svg)](https://codeclimate.com/github/CrazySquirrel/CSShare)
+[![Test Coverage](https://codeclimate.com/github/CrazySquirrel/CSShare/badges/coverage.svg)](https://codeclimate.com/github/CrazySquirrel/CSShare/coverage)
+[![Issue Count](https://codeclimate.com/github/CrazySquirrel/CSShare/badges/issue_count.svg)](https://codeclimate.com/github/CrazySquirrel/CSShare)
+[![Donate](https://img.shields.io/badge/donate-%E2%99%A5-red.svg)](http://crazysquirrel.ru/support/)
+
 jQuery plugin for making share buttons.
 This plugin allows you to create share buttons.
 You can look at other plugins and utilities for web development on the website [CrazySquirrel.ru](http://crazysquirrel.ru/).
+
 ## Parameters
+
 ### Parameters description
+
 * types - An array with the names of views share.
 		  May include the following values.
 		  ["facebook","twitter","vkontakte","odnoklassniki","google","yahoo","misterwong","moimir","friendfeed","yandex","webmoney","vkrugu","juick","pinterest","myspace","googlebookmark","stumbleupon","instapaper","email","springpad","print","linkedin","readability","pinme","surfingbird","webdiscover","memori","livejournal","blogger","liveinternet","evernote","bobrdobr","moemesto","formspring","yazakladki","moikrug","bookmark","digg","tumblr","delicious"]
 
 ### Setting
+
 The options for share buttons can be specified when invoking the plugin or via data - attributes.
 When you call peredaetsa structured object as the default parameters.
 If you specify options via data, you can use the following values.
 * data-csshare-types - Sets types where value separet by ,
 
 ### Default parameters
+
 ```javascript
 types: ["twitter","facebook","vkontakte","print"]
 ```
+
 ## Example
+
 ### HTML
+
 ```html
 <!doctype html>
 <html>
@@ -69,7 +83,9 @@ types: ["twitter","facebook","vkontakte","print"]
 </body>
 </html>
 ```
+
 ### JavaScript
+
 ```javascript
 $(function(){
     $(".cstiles").CSTiles({
